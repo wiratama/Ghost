@@ -7,7 +7,7 @@
 var Ghost  = require('../../ghost'),
     api    = require('../api'),
     RSS    = require('rss'),
-    _      = require('underscore'),
+    _      = require('lodash'),
     errors = require('../errorHandling'),
     when   = require('when'),
     url    = require('url'),

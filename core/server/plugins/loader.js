@@ -1,6 +1,6 @@
 
 var path = require('path'),
-    _    = require('underscore'),
+    _    = require('lodash'),
     when = require('when'),
     createProxy = require('./proxy'),
     ghostInstance,

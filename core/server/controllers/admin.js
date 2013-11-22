@@ -1,5 +1,5 @@
 var Ghost         = require('../../ghost'),
-    _             = require('underscore'),
+    _             = require('lodash'),
     path          = require('path'),
     api           = require('../api'),
     errors        = require('../errorHandling'),

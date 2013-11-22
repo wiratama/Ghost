@@ -1,5 +1,5 @@
 
-var _           = require('underscore'),
+var _           = require('lodash'),
     express     = require('express'),
     Ghost       = require('../ghost'),
     path        = require('path'),

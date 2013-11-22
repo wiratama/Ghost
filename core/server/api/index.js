@@ -2,7 +2,7 @@
 // Provides access to the data model
 
 var Ghost        = require('../../ghost'),
-    _            = require('underscore'),
+    _            = require('lodash'),
     when         = require('when'),
     errors       = require('../errorHandling'),
     permissions  = require('../permissions'),

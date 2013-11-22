@@ -1,7 +1,7 @@
 // Module dependencies
 var express     = require('express'),
     when        = require('when'),
-    _           = require('underscore'),
+    _           = require('lodash'),
     colors      = require('colors'),
     semver      = require('semver'),
     fs          = require('fs'),

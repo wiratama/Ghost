@@ -6,7 +6,7 @@ var Ghost         = require('../../ghost'),
     path          = require('path'),
     when          = require('when'),
     nodefn        = require('when/node/function'),
-    _             = require('underscore'),
+    _             = require('lodash'),
     schema        = require('../data/schema'),
 
     ghost         = new Ghost(),
